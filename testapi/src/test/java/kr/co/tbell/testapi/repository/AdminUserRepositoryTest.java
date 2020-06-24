@@ -1,5 +1,7 @@
 package kr.co.tbell.testapi.repository;
 
+import java.time.LocalDateTime;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,12 +20,12 @@ public class AdminUserRepositoryTest {
 		
 		AdminUser adminUser = new AdminUser();
 		
-//		adminUser.setAccount("AdminUser04");
-//		adminUser.setPassword("AdminUser04");
-//		adminUser.setStatus("REGISTERED");
-//		adminUser.setRole("PARTNER");
-//		adminUser.setCreatedAt(LocalDateTime.now());
-//		adminUser.setCreatedBy("AdminServer");
+		adminUser.setAccount("AdminUser04");
+		adminUser.setPassword("AdminUser04");
+		adminUser.setStatus("REGISTERED");
+		adminUser.setRole("PARTNER");
+		adminUser.setCreatedAt(LocalDateTime.now());
+		adminUser.setCreatedBy("AdminServer");
 		
 		AdminUser newAdminUser = adminUserRepository.save(adminUser);
 		Assertions.assertNotNull(newAdminUser);
