@@ -19,6 +19,7 @@ public class CategoryRepositoryTest {
 	@Test
 	public void create() {
 		// insert into category (created_at, created_by, title, type, updated_at, updated_by) values (?, ?, ?, ?, ?, ?)
+		// test create category
 		
 		String type = "COMPUTER";
 		String title = "컴퓨터";
