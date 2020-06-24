@@ -18,10 +18,10 @@ public class AdminUserRepositoryTest {
 		
 		AdminUser adminUser = new AdminUser();
 		
-		adminUser.setAccount("AdminUser04");
-		adminUser.setPassword("AdminUser04");
-		adminUser.setStatus("REGISTERED");
-		adminUser.setRole("PARTNER");
+//		adminUser.setAccount("AdminUser04");
+//		adminUser.setPassword("AdminUser04");
+//		adminUser.setStatus("REGISTERED");
+//		adminUser.setRole("PARTNER");
 //		adminUser.setCreatedAt(LocalDateTime.now());
 //		adminUser.setCreatedBy("AdminServer");
 		
