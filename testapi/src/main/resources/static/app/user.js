@@ -72,7 +72,7 @@
     
     function searchStart(index) {
         console.log("call index : "+index);
-        $.get("/api/user?page="+index, function (response) {
+        $.get("/testapi/api/user?page="+index, function (response) {
 
             /* 데이터 셋팅 */
             // 페이징 처리 데이터
