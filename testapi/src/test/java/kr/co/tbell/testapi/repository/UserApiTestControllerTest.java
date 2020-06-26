@@ -88,6 +88,7 @@ public class UserApiTestControllerTest {
 	public void deleteUser() throws Exception {
 
 		log.info("Junit Test Start");
+		log.info("Junit Test Start");
 		log.info("User Delete Method Test");
 		
 		this.mockMvc.perform(
