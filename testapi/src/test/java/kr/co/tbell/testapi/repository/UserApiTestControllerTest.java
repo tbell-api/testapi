@@ -47,7 +47,8 @@ public class UserApiTestControllerTest {
 	
 	@Test
 	public void create() throws Exception {
-		
+
+		log.info("Junit Test Start");
 		log.info("User Create Method Test");
 		
 		String content = "{name=newUser, age=28}"; 
@@ -60,7 +61,8 @@ public class UserApiTestControllerTest {
 	
 	@Test
 	public void read() throws Exception {
-		
+
+		log.info("Junit Test Start");
 		log.info("User Read Method Test");
 		
 		this.mockMvc.perform(
@@ -70,7 +72,8 @@ public class UserApiTestControllerTest {
 	
 	@Test
 	public void update() throws Exception {
-		
+
+		log.info("Junit Test Start");
 		log.info("User Update Method Test");
 		
 		String content = "{name=newUser, age=28}"; 
@@ -83,7 +86,8 @@ public class UserApiTestControllerTest {
 	
 	@Test
 	public void deleteUser() throws Exception {
-		
+
+		log.info("Junit Test Start");
 		log.info("User Delete Method Test");
 		
 		this.mockMvc.perform(
